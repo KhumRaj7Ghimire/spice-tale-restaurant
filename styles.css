@@ -362,12 +362,19 @@ body {
   display: grid;
   gap: 1rem;
 }
-/* ============ Cards / Grid - Scalable & Future-Proof ============ */
+
+/* ============ Cards / Grid - Fixed 4 Columns on Desktop ============ */
 .cards {
   display: grid;
   gap: 1rem;
-  /* Auto-fit: fills available space with min-width of 280px */
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); /* Smaller min width */
+}
+
+/* Desktop: Force exactly 4 columns when screen is wide enough */
+@media (min-width: 1100px) {
+  .cards {
+    grid-template-columns: repeat(4, 1fr); /* Exactly 4 equal columns */
+  }
 }
 
 /* Optional: Add padding and radius override for mobile */
