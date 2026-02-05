@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Spice Tale | Sri Lankan Kottu in the UK</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Merienda:wght@400;700&display=swap" rel="stylesheet" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" />
+  </head>
+  <body>
+    <!-- Header / Nav -->
+    <header class="site-header">
+      <div class="container header-inner">
+        <a href="#" class="brand" aria-label="Spice Tale Home"> <span class="brand-mark">Spice</span><span class="brand-accent"> Tale</span> </a>
+
+        <!-- Mobile nav toggle (CSS-only) -->
+        <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="Open navigation" />
+        <label class="hamburger" for="nav-toggle" aria-hidden="true"> <span></span><span></span><span></span> </label>
+
+        <nav class="main-nav" aria-label="Primary">
+          <ul>
+            <li><a href="#menu" tabindex="0">Menu</a></li>
+            <li><a href="#about" tabindex="0">Our Story</a></li>
+            <li><a href="#future" tabindex="0">Coming Soon</a></li>
+            <li><a href="#visit" tabindex="0">Visit</a></li>
+            <li><a class="btn btn-sm" href="#order" tabindex="0">Order Now</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero" id="home">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <h1>Hand‑Chopped </br>Sri Lankan Kottu, <span class="text-amber"></br> Fresh from the Tawa</span></h1>
+          <p class="lead">At Spice Tale we serve the dish Sri Lanka loves: <strong>Kottu</strong>. Loudly chopped, boldly spiced, and lovingly finished with fresh curry leaves.</p>
+          <div class="hero-ctas">
+            <a href="https://www.deliveroo.co.uk/restaurants/spice-tale-london" target="_blank" class="btn btn-solid"> <i class="fa-solid fa-motorcycle"></i> Order on Deliveroo </a>
+            <a href="https://www.ubereats.com/uk/restaurant/spice-tale/london" target="_blank" class="btn btn-outline"> <i class="fa-solid fa-car"></i> Uber Eats </a>
+            <a href="#menu" class="btn btn-outline">View Menu</a>
+          </div>
+
+          <ul class="hero-bullets">
+            <li><i class="fa-solid fa-pepper-hot"></i> Choose your heat level</li>
+            <li><i class="fa-solid fa-leaf"></i> Vegetarian options</li>
+          </ul>
+
+          <ul class="hero-bullets" style="margin-top: 1rem">
+            <li><i class="fa-solid fa-utensils"></i> Takeaway</li>
+            <li><i class="fa-solid fa-motorcycle"></i> Delivery</li>
+          </ul>
+        </div>
+
+        <!-- Full-Screen Background Image -->
+        <div class="hero-bg-image" style="background-image: url('/images/hero-kottu-2.png')"></div>
+      </div>
+    </section>
+
+    <!-- Signature Kottu Menu -->
+    <section class="section fade-in-section" id="menu">
+      <div class="container">
+        <header class="section-head">
+          <h2>Our Signature Kottu</h2>
+          <p>Simple, focused, and done right. Add your spice level: Mild, Medium, Fierce.</p>
+        </header>
+
+        <div class="grid cards">
+          <article class="card">
+            <h3>Classic Chicken Kottu</h3>
+            <p>Hand‑chopped roti, chicken, veggies, egg, and Spice Tale masala.</p>
+            <div class="meta">
+              <span class="price">£9.95</span>
+              <span class="heat" aria-label="Medium heat"><i class="fa-solid fa-pepper-hot"></i><i class="fa-solid fa-pepper-hot"></i></span>
+            </div>
+          </article>
+
+          <article class="card">
+            <h3>Veg Kottu</h3>
+            <p>Loaded with seasonal veg, egg optional, bold Sri Lankan spices.</p>
+            <div class="meta">
+              <span class="price">£8.95</span>
+              <span class="heat" aria-label="Mild heat"><i class="fa-solid fa-pepper-hot"></i></span>
+            </div>
+          </article>
+
+          <article class="card">
+            <h3>Cheese Kottu</h3>
+            <p>Melty and comforting with our turmeric‑cinnamon finish.</p>
+            <div class="meta">
+              <span class="price">£9.50</span>
+              <span class="heat" aria-label="Mild heat"><i class="fa-solid fa-pepper-hot"></i></span>
+            </div>
+          </article>
+
+          <article class="card">
+            <h3>Egg Kottu</h3>
+            <p>Golden egg ribbons, spring onion, and a squeeze of lime.</p>
+            <div class="meta">
+              <span class="price">£8.50</span>
+              <span class="heat" aria-label="Medium heat"><i class="fa-solid fa-pepper-hot"></i><i class="fa-solid fa-pepper-hot"></i></span>
+            </div>
+          </article>
+        </div>
+
+        <div class="note">Want it hotter? Ask for “Devilled Heat” <i class="fa-solid fa-fire"></i></div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="section split fade-in-section" id="about">
+      <div class="container split-grid">
+        <div class="split-copy">
+          <h2>Our Story</h2>
+          <p>
+            Spice Tale began with the sound of blades on hot tawa — a rhythm that echoes through Sri Lankan streets at night. We brought that rhythm to the UK with one goal: make the best Kottu in
+            town.
+          </p>
+          <div class="story-points"> <!-- Keep your container class -->
+            <p>✓ Authentic spice blends</p>
+            <p>✓ Fresh, locally sourced produce</p>
+            <p>✓ Halal-friendly options</p>
+          </div>
+        </div>
+        <div class="split-media">
+          <img src="/images/aboutus.png" alt="Spice Tale Kitchen: A Warm Tribute to Sri Lankan Heritage" loading="lazy" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Coming Soon -->
+    <section class="section fade-in-section" id="future">
+      <div class="container">
+        <header class="section-head">
+          <h2>Coming Soon to Spice Tale</h2>
+          <p>We’re expanding beyond Kottu — watch this space!</p>
+        </header>
+
+        <div class="grid tags">
+          <span class="tag">Hoppers (Appa)</span>
+          <span class="tag">String Hoppers</span>
+          <span class="tag">Rice & Curry</span>
+          <span class="tag">Devilled Dishes</span>
+          <span class="tag">Pol Sambol</span>
+          <span class="tag">Kottu Specials</span>
+        </div>
+
+        <div class="cta-box" id="order">
+          <h3>Order Online</h3>
+          <p>Delivery partners launching soon. For now, call us or pop in.</p>
+          <div class="cta-actions">
+            <a class="btn" href="tel:+441234567890"><i class="fa-solid fa-phone"></i> 01234 567 890</a>
+            <a class="btn btn-outline" href="#visit">Find Us</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Visit Us -->
+    <section class="section fade-in-section" id="visit">
+      <div class="container split-grid">
+        <div class="split-copy">
+          <h2>Visit Spice Tale</h2>
+          <address class="address">
+            123 High Street, London, UK<br />
+            • Mon–Thu: 12:00–22:00<br /> • Fri–Sat: 12:00–23:00 <br /> • Sun: 12:00–21:00
+          </address>
+          <div class="cta-actions">
+            <a class="btn" href="mailto:hello@spicetale.uk">hello@spicetale.uk</a>
+            <a class="btn btn-outline" href="https://instagram.com" target="_blank" rel="noopener">Instagram</a>
+          </div>
+        </div>
+        <div class="split-media map-wrap" aria-label="Map">
+          <!-- Replace the query/address with your exact location -->
+          <iframe title="Spice Tale Location" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps?q=London%20High%20Street&output=embed"> </iframe>
+        </div>
+      </div>
+    </section>
+    
+    <!-- ============ Blog Section ============ -->
+    <section id="blog" class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>Spice Stories</h2>
+          <p>Behind the sizzle, the spice, and the stories from our kitchen. Discover the soul of Sri Lankan cuisine — one Kottu at a time.</p>
+        </div>
+
+        <!-- Blog Grid -->
+        <div class="blog-grid">
+          <!-- Card 1 -->
+          <article class="card blog-card">
+            <img src="/images/article1.png" alt="Sri Lankan Kottu: A Journey Through Time" loading="lazy" />
+            <div class="blog-content">
+              <h3>Sri Lankan Kottu: A Journey Through Time</h3>
+              <p>From street-side woks in Colombo to the heart of London — how this beloved dish became a symbol of resilience and flavor.</p>
+              <a href="#" class="read-more">Read More <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </article>
+
+          <!-- Card 2 -->
+          <article class="card blog-card">
+            <img src="/images/article2.png" alt="The Art of Chopping: Why Every Kottu is Unique" loading="lazy" />
+            <div class="blog-content">
+              <h3>The Art of Chopping: Why Every Kottu is Unique</h3>
+              <p>Hand-chopped roti, rhythmic strikes on the tawa, and the perfect balance of spices — it's not just cooking, it's performance.</p>
+              <a href="#" class="read-more">Read More <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </article>
+
+          <!-- Card 3 -->
+          <article class="card blog-card">
+            <img src="/images/article3.png" alt="From Island to Plate: The Spice Tale Story" loading="lazy" />
+            <div class="blog-content">
+              <h3>From Island to Plate: The Spice Tale Story</h3>
+              <p>How a dream of serving authentic Sri Lankan food in London began with a single wok and a lot of love.</p>
+              <a href="#" class="read-more">Read More <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </article>
+        </div>
+
+        <!-- CTA Button: View All Stories -->
+        <div class="text-center">
+          <a href="#" class="btn btn-outline">View All Stories</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>© <span id="year"></span> Spice Tale. All rights reserved.</p>
+        <ul class="social">
+          <li>
+            <a href="https://instagram.com" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+          </li>
+          <li>
+            <a href="https://facebook.com" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
+          </li>
+          <li>
+            <a href="https://tiktok.com" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+
+    <!-- Animation & Parallax Script -->
+    <script src="script.js"></script>
+
+    <!-- Current year script -->
+    <script>
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
